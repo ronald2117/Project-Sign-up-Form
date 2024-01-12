@@ -132,3 +132,8 @@ body {
 .form-footer button:hover {
     cursor: pointer;
 }
+
+.form-footer p a {
+    color: #596D48;
+    text-decoration: none;
+}
