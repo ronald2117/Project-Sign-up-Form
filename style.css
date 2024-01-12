@@ -25,6 +25,7 @@ body {
     display: flex;
     min-height: 100vh;
     width: 100vw;
+    font-size: 1.2rem;
 }
 
 .sign-up-img-cont {
