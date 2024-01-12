@@ -25,7 +25,6 @@ body {
     display: flex;
     min-height: 100vh;
     width: 100vw;
-    font-size: 1.2rem;
 }
 
 .sign-up-img-cont {
@@ -80,7 +79,8 @@ body {
 
 .form-intro {
     width: 70%;
-    padding-left: 30px
+    padding-left: 30px;
+    font-size: 1.2rem;
 }
 
 .form-main {
@@ -125,6 +125,7 @@ body {
 
 .form-footer {
     padding: 10px 30px;
+    font-size: 1.2rem;
 }
 
 .form-footer button {
@@ -142,4 +143,8 @@ body {
 .form-footer p a {
     color: #596D48;
     text-decoration: none;
+}
+
+.error-msg-cont {
+    position: relative;
 }
