@@ -3,6 +3,16 @@
     src: url('fonts/Norse-Bold.otf');
 }
 
+@font-face {
+    font-family: 'Roboto-Bold';
+    src: url('/fonts/Roboto/Roboto-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Roboto-Light';
+    src: url('fonts/Roboto/Roboto-Light.ttf');
+}
+
 *,
 *::after,
 *::before {
@@ -18,15 +28,11 @@ body {
 }
 
 .sign-up-img-cont {
-    width: 500px;
+    width: 35vw;
     flex-shrink: 0;
     background-image: url('images/halie-west-25xggax4bSA-unsplash.jpg');
     background-size: cover;
     background-position: center;
-}
-
-.form-section {
-    flex-grow: 1;
 }
 
 .logo-container {
@@ -53,4 +59,76 @@ body {
 .logo-text {
     font-family: 'Norse Bold';
     font-size: 70px;
+}
+
+.form-section {
+    font-family: 'Roboto-Bold', 'Sans-Serif';
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(249 250 251);
+}
+
+.form-body {
+    margin: 20px 0;
+    padding-left: 30px;
+    box-shadow: 0 1px 2px lightgray;
+    background-color: white;
+}
+
+.form-intro {
+    width: 70%;
+    padding-left: 30px
+}
+
+.form-main {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 700px;
+    margin: 20px 0;
+}
+
+.form-item {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px
+}
+
+.form-item label {
+    font-size: 0.7rem;
+    font-family: 'Roboto-Light';
+    font-weight: 600;
+}
+
+.inputs {
+    width: 100%;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #E5E7EB;
+    height: 2rem;
+    font-size: 1.2rem;
+}
+
+.inputs:focus {
+    border: 2px solid blue;
+    outline: none;
+    box-shadow: 2px 2px 5px gray;
+}
+
+.form-footer {
+    padding: 10px 30px;
+}
+
+.form-footer button {
+    background: #596D48;
+    color: white;
+    padding: 8px 30px;
+    border-radius: 5px;
+    border: none;
+}
+
+.form-footer button:hover {
+    cursor: pointer;
 }

@@ -1,2 +1,2 @@
 # Project-Sign-up-Form
-Intermediate HTML and CSS project in The odin project website
+Intermediate HTML and CSS project for the odin project website
