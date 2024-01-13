@@ -118,11 +118,6 @@ body {
     box-shadow: 2px 2px 5px gray;
 }
 
-.inputs:invalid {
-    border: 2px solid red;
-    outline: none;
-}
-
 .form-footer {
     padding: 10px 30px;
     font-size: 1.2rem;
