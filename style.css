@@ -5,7 +5,7 @@
 
 @font-face {
     font-family: 'Roboto-Bold';
-    src: url('/fonts/Roboto/Roboto-Bold.ttf');
+    src: url('fonts/Roboto/Roboto-Bold.ttf');
 }
 
 @font-face {
@@ -78,7 +78,7 @@ body {
 }
 
 .form-section {
-    font-family: 'Roboto-Bold', 'Sans-Serif';
+    font-family: 'Roboto-Bold', 'Serif';
     flex-grow: 1;
     display: flex;
     flex-direction: column;
